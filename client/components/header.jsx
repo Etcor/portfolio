@@ -27,12 +27,79 @@ class Header extends React.Component {
   }
 
   render() {
+    const offset = window.innerWidth < 768 ? -268 : -86;
     return (
-      <React.Fragment>
-        <Container fluid={true} className="py-3 bg-dark sticky-top">
-          <Navbar color="faded" dark></Navbar>
+      <>
+        <Container fluid={true} className="py-3 sticky-top">
+          <Navbar expand="md" color="faded" className="py-0">
+            <NavbarToggler onClick={this.handleToggle} navbar="true" />
+            <Collapse isOpen={this.state.isToggledOpen} navbar>
+              <Nav className="ml-auto" navbar>
+                <NavItem>
+                  <Link activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={offset}
+                    duration={1000}
+                    className="pointer px-0 nav-link"
+                    onClick={this.handleToggle}>
+                    About Me
+                  </Link>
+                </NavItem>
+                <NavItem className="ml-md-5">
+                  <Link activeClass="active"
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    offset={offset}
+                    duration={1000}
+                    className="pointer px-0 nav-link"
+                    onClick={this.handleToggle}>
+                    Skills
+                  </Link>
+                </NavItem>
+                <NavItem className="ml-md-5">
+                  <Link activeClass="active"
+                    to="tools"
+                    spy={true}
+                    smooth={true}
+                    offset={offset}
+                    duration={1000}
+                    className="pointer px-0 nav-link"
+                    onClick={this.handleToggle}>
+                    Tools
+                  </Link>
+                </NavItem>
+                <NavItem className="ml-md-5">
+                  <Link activeClass="active"
+                    to="applications"
+                    spy={true}
+                    smooth={true}
+                    offset={offset}
+                    duration={1000}
+                    className="pointer px-0 nav-link"
+                    onClick={this.handleToggle}>
+                    Applications
+                  </Link>
+                </NavItem>
+                <NavItem className="ml-md-5">
+                  <Link activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={offset}
+                    duration={1000}
+                    className="pointer px-0 nav-link"
+                    onClick={this.handleToggle}>
+                    Contact
+                  </Link>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </Navbar>
         </Container>
-      </React.Fragment>
+      </>
     );
   }
 }
