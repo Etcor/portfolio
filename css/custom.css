@@ -37,8 +37,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -78,16 +78,16 @@ ul {
   list-style: none;
 }
 
-p { 
-  line-height: 1.75; 
-  margin-bottom: 30px; 
+p {
+  line-height: 1.75;
+  margin-bottom: 30px;
 }
 
-h1, h2, h3, h4, h5, h6 { 
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Segoe UI", sans-serif;
-  font-weight: 800; 
-  margin-bottom: 30px; 
-  line-height: 1.5; 
+  font-weight: 800;
+  margin-bottom: 30px;
+  line-height: 1.5;
 }
 
 h1 { font-size: 4.209em; }
@@ -296,21 +296,21 @@ html.mfp-helper {
   left: 0;
   right: 0;
   margin: auto;
-  -webkit-animation: rotate 1.2s infinite;  
-  -moz-animation: rotate 1.2s infinite;  
-  animation: rotate 1.2s infinite;  
+  -webkit-animation: rotate 1.2s infinite;
+  -moz-animation: rotate 1.2s infinite;
+  animation: rotate 1.2s infinite;
   height: 50px;
   width: 50px;
 }
 
 #pre-load .load-circle:before,
-#pre-load .load-circle:after {   
+#pre-load .load-circle:after {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
   content: '';
   display: block;
-  height: 20px;  
+  height: 20px;
   width: 20px;
 }
 
@@ -328,17 +328,17 @@ html.mfp-helper {
 }
 
 @-webkit-keyframes rotate {
-  0% { 
+  0% {
     -webkit-transform: rotate(0deg) scale(0.8);
     -o-transform: rotate(0deg) scale(0.8);
     transform: rotate(0deg) scale(0.8);
   }
-  50% { 
+  50% {
     -webkit-transform: rotate(360deg) scale(1.2);
     -o-transform: rotate(360deg) scale(1.2);
     transform: rotate(360deg) scale(1.2);
   }
-  100% { 
+  100% {
     -webkit-transform: rotate(720deg) scale(0.8);
     -o-transform: rotate(720deg) scale(0.8);
     transform: rotate(720deg) scale(0.8);
@@ -346,37 +346,37 @@ html.mfp-helper {
 }
 
 @-moz-keyframes rotate {
-  0% { 
+  0% {
     -moz-transform: rotate(0deg) scale(0.8);
     transform: rotate(0deg) scale(0.8);
   }
-  50% { 
+  50% {
     -moz-transform: rotate(360deg) scale(1.2);
     transform: rotate(360deg) scale(1.2);
   }
-  100% { 
+  100% {
     -moz-transform: rotate(720deg) scale(0.8);
     transform: rotate(720deg) scale(0.8);
   }
 }
 
 @keyframes rotate {
-  0% { 
-    -webkit-transform: rotate(0deg) scale(0.8); 
+  0% {
+    -webkit-transform: rotate(0deg) scale(0.8);
     -moz-transform: rotate(0deg) scale(0.8);
     -ms-transform: rotate(0deg) scale(0.8);
     -o-transform: rotate(0deg) scale(0.8);
     transform: rotate(0deg) scale(0.8);
   }
-  50% { 
-    -webkit-transform: rotate(360deg) scale(1.2); 
+  50% {
+    -webkit-transform: rotate(360deg) scale(1.2);
     -moz-transform: rotate(360deg) scale(1.2);
     -ms-transform: rotate(360deg) scale(1.2);
     -o-transform: rotate(360deg) scale(1.2);
     transform: rotate(360deg) scale(1.2);
   }
-  100% { 
-    -webkit-transform: rotate(720deg) scale(0.8); 
+  100% {
+    -webkit-transform: rotate(720deg) scale(0.8);
     -moz-transform: rotate(720deg) scale(0.8);
     -ms-transform: rotate(720deg) scale(0.8);
     -o-transform: rotate(720deg) scale(0.8);
@@ -510,7 +510,7 @@ html.mfp-helper {
 
 .main-content .hanging .logo-hanging i {
   font-size: 30px;
-} 
+}
 
 .main-content .hanging .text-hanging {
   position: absolute;
@@ -1265,28 +1265,28 @@ html.mfp-helper {
 }
 
 @-webkit-keyframes progress {
-  from { 
-    background-position: 0 0; 
+  from {
+    background-position: 0 0;
   }
-  to { 
+  to {
     background-position: 40px 0;
   }
 }
 
 @-moz-keyframes progress {
-  from { 
-    background-position: 0 0; 
+  from {
+    background-position: 0 0;
   }
-  to {  
-    background-position: 40px 0; 
+  to {
+    background-position: 40px 0;
   }
 }
 
 @keyframes progress {
-  from { 
-    background-position: 0 0; 
+  from {
+    background-position: 0 0;
   }
-  to { 
+  to {
     background-position: 40px 0;
   }
 }
@@ -1992,7 +1992,7 @@ html.mfp-helper {
 
   h5 { font-size: 1.414em; }
 
-  h6 { font-size: 1em; } 
+  h6 { font-size: 1em; }
 
   .main-content .inner-content .head-content {
     height: -webkit-calc((60px * 2) + 2.827em - 12px);
@@ -2198,7 +2198,7 @@ html.mfp-helper {
 
   .main-content#about .inner-content .content #services .single-service ul ul {
     padding: 32px 14px 33px;
-  }  
+  }
 
   .main-content#about .inner-content .content #services .single-service ul ul .service-name {
     margin-bottom: 24px;
@@ -2273,28 +2273,28 @@ html.mfp-helper {
   }
 
   @-webkit-keyframes progress {
-    from { 
-      background-position: 0 0; 
+    from {
+      background-position: 0 0;
     }
-    to { 
+    to {
       background-position: 50px 0;
     }
   }
 
   @-moz-keyframes progress {
-    from { 
-      background-position: 0 0; 
+    from {
+      background-position: 0 0;
     }
-    to {  
-      background-position: 50px 0; 
+    to {
+      background-position: 50px 0;
     }
   }
 
   @keyframes progress {
-    from { 
-      background-position: 0 0; 
+    from {
+      background-position: 0 0;
     }
-    to { 
+    to {
       background-position: 50px 0;
     }
   }
@@ -2418,7 +2418,7 @@ html.mfp-helper {
   }
 
   .main-content#contact .inner-content .content #contact-form .form-wrapper .form-group textarea.form-control {
-    height: 158px;  
+    height: 158px;
   }
 
   .main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] {
@@ -2480,7 +2480,7 @@ html.mfp-helper {
 
   h5 { font-size: 1.25em; }
 
-  h6 { font-size: 1em; } 
+  h6 { font-size: 1em; }
 
   .project-popup {
     padding-left: 25px;
@@ -2701,28 +2701,28 @@ html.mfp-helper {
   }
 
   @-webkit-keyframes progress {
-    from { 
-      background-position: 0 0; 
+    from {
+      background-position: 0 0;
     }
-    to { 
+    to {
       background-position: 35px 0;
     }
   }
 
   @-moz-keyframes progress {
-    from { 
-      background-position: 0 0; 
+    from {
+      background-position: 0 0;
     }
-    to {  
-      background-position: 35px 0; 
+    to {
+      background-position: 35px 0;
     }
   }
 
   @keyframes progress {
-    from { 
-      background-position: 0 0; 
+    from {
+      background-position: 0 0;
     }
-    to { 
+    to {
       background-position: 35px 0;
     }
   }
@@ -3255,28 +3255,28 @@ html.mfp-helper {
   }
 
   @-webkit-keyframes progress {
-    from { 
-      background-position: 0 0; 
+    from {
+      background-position: 0 0;
     }
-    to { 
+    to {
       background-position: 30px 0;
     }
   }
 
   @-moz-keyframes progress {
-    from { 
-      background-position: 0 0; 
+    from {
+      background-position: 0 0;
     }
-    to {  
-      background-position: 30px 0; 
+    to {
+      background-position: 30px 0;
     }
   }
 
   @keyframes progress {
-    from { 
-      background-position: 0 0; 
+    from {
+      background-position: 0 0;
     }
-    to { 
+    to {
       background-position: 30px 0;
     }
   }
@@ -3318,7 +3318,7 @@ html.mfp-helper {
   .main-content#resume .inner-content .content .button-wrapper {
     margin-bottom: 50px;
   }
-  
+
   .main-content#portfolio .inner-content .content #projects > .row {
     margin-top: 20px;
     padding: 30px 20px 10px;
@@ -3599,28 +3599,28 @@ html.mfp-helper {
   }
 
   @-webkit-keyframes progress {
-    from { 
-      background-position: 0 0; 
+    from {
+      background-position: 0 0;
     }
-    to { 
+    to {
       background-position: 25px 0;
     }
   }
 
   @-moz-keyframes progress {
-    from { 
-      background-position: 0 0; 
+    from {
+      background-position: 0 0;
     }
-    to {  
-      background-position: 25px 0; 
+    to {
+      background-position: 25px 0;
     }
   }
 
   @keyframes progress {
-    from { 
-      background-position: 0 0; 
+    from {
+      background-position: 0 0;
     }
-    to { 
+    to {
       background-position: 25px 0;
     }
   }
@@ -3882,7 +3882,7 @@ html.mfp-helper {
 
   .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 3) ul li:last-child {
     margin-bottom: 6px;
-  } 
+  }
 
   .main-content#about .inner-content .content #personal-info .button-wrapper .single-button {
     display: block;
@@ -3964,7 +3964,7 @@ html.mfp-helper {
   .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(odd) {
     padding-right: 0;
   }
-  
+
   .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(even) {
     padding-left: 0;
   }
@@ -4077,7 +4077,7 @@ html.mfp-helper {
 
   h5 { font-size: 1.125em; }
 
-  h6 { font-size: 1em; } 
+  h6 { font-size: 1em; }
 
   .main-content .inner-content .head-content {
     height: -webkit-calc((50px * 2) + 1.424em - 8px);
@@ -4117,6 +4117,14 @@ html.mfp-helper {
 
   .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li {
     margin-bottom: 18px;
+  }
+
+  .mobile-row {
+    justify-content: space-evenly;
+  }
+
+  .mobile-card {
+    width: calc(50% - 10px);
   }
 }
 
@@ -4239,4 +4247,9 @@ html.mfp-helper {
     letter-spacing: 0.5em;
     font-size: 0.9em;
   }
+}
+
+.svg-icon {
+  max-height: 6rem;
+  max-width: 6rem;
 }
