@@ -4252,4 +4252,5 @@ html.mfp-helper {
 .svg-icon {
   max-height: 6rem;
   max-width: 6rem;
+  border: none;
 }
