@@ -116,7 +116,7 @@
 			new TypeIt('.passion', {
 				speed: 150,
 				startDelay: 800,
-				strings: ['Full Stack Developer', 'UI/UX Enthusiast'],
+				strings: ['Full Stack Developer', 'UI/UX Enthusiast', 'Programmer and Designer'],
 				breakLines: false,
 				loop: true
 			});
