@@ -8,8 +8,12 @@
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: $primary;
+    background-color: rgba($color: #6e6e6e, $alpha: .15);
+    outline: none;
     @include heading-font;
+    &:hover {
+      background-color: rgba($color: #585858, $alpha: .25);
+    }
   }
   .navbar-brand {
     color: $primary;
@@ -18,7 +22,7 @@
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: $primary
     }
   }
   .navbar-nav {
@@ -32,7 +36,7 @@
         @include heading-font;
         &.active,
         &:hover {
-          color: $primary;
+          color: $primary
         }
       }
     }
