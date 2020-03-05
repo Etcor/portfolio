@@ -232,6 +232,21 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+.svg-icon {
+  min-height: 8rem;
+  max-height: 8rem;
+  max-width: 8rem;
+  border: none;
+}
+
+.mobile-row {
+  justify-content: space-evenly;
+}
+
+.mobile-card {
+  width: calc(50% - 10px);
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;

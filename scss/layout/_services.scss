@@ -3,3 +3,18 @@
   margin: 15px 0;
   text-transform: none;
 }
+
+.svg-icon {
+  min-height: 8rem;
+  max-height: 8rem;
+  max-width: 8rem;
+  border: none;
+}
+
+.mobile-row {
+  justify-content: space-evenly;
+}
+
+.mobile-card {
+  width: calc(50% - 10px);
+}
