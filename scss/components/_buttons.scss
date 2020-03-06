@@ -24,3 +24,12 @@
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
   }
 }
+
+.card-btn {
+    width: calc(50% - .5rem);
+    border: 3px solid #212529;
+    opacity: .65;
+    &:hover {
+      opacity: .85;
+    }
+}

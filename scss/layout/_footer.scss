@@ -32,11 +32,11 @@ ul.social-buttons {
       color: white;
       border-radius: 100%;
       outline: none;
-      background-color: $gray-900;
+      background-color: rgba($color: #0f0f0f, $alpha: 1.0);
       &:active,
       &:focus,
       &:hover {
-        background-color: $primary;
+        background-color: $gray-900;
       }
     }
   }
